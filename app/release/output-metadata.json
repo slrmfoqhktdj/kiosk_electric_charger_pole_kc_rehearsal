@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.example.kiosk_electric_charger_pole_kc_rehearsal",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 7,
+      "versionName": "1.1.0",
+      "outputFile": "app-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

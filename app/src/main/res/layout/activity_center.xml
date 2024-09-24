@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_back"
+        />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent=".58"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent=".7"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/main_nodeline"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.61"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.72"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".65"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/main_title_time"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.11"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".085"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".33"
+            />
+
+
+        <TextView
+            android:id="@+id/main_title_time_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="2024-01-08 11:28"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:shadowRadius="3"
+            android:shadowDy="2"
+            android:shadowColor="#011851"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.10"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".09"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".64"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/main_title_temp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.265"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".085"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".33"
+            />
+
+        <TextView
+            android:id="@+id/main_title_temp_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="30.5 ℃"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:shadowRadius="3"
+            android:shadowDy="2"
+            android:shadowColor="#011851"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.255"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".09"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".64"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/main_title_humidity"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.42"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".085"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".33"
+            />
+
+        <TextView
+            android:id="@+id/main_title_humidity_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="24.8 %"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:shadowRadius="3"
+            android:shadowDy="2"
+            android:shadowColor="#011851"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.41"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".09"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".64"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/main_title_ws"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.57"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".085"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".33"
+            />
+
+        <TextView
+            android:id="@+id/main_title_ws_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="15.53 m/s"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:shadowRadius="3"
+            android:shadowDy="2"
+            android:shadowColor="#011851"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.56"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".09"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".64"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/main_title_wd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.725"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".085"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".33"
+            />
+
+        <TextView
+            android:id="@+id/main_title_wd_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="120°"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:shadowRadius="3"
+            android:shadowDy="2"
+            android:shadowColor="#011851"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.715"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".09"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".63"
+            />
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:background="@drawable/main_title_ap"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.0"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintVertical_bias="0.66"-->
+
+        <!--            app:layout_constraintHeight_default="percent"-->
+        <!--            app:layout_constraintHeight_percent=".085"-->
+        <!--            app:layout_constraintWidth_default="percent"-->
+        <!--            app:layout_constraintWidth_percent=".33"-->
+        <!--            />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/main_title_ap_tv"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:text="1025.6 hPa"-->
+        <!--            android:gravity="center"-->
+        <!--            android:textSize="22sp"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:shadowRadius="3"-->
+        <!--            android:shadowDy="2"-->
+        <!--            android:shadowColor="#011851"-->
+
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="1"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintVertical_bias="0.65"-->
+
+        <!--            app:layout_constraintHeight_default="percent"-->
+        <!--            app:layout_constraintHeight_percent=".09"-->
+        <!--            app:layout_constraintWidth_default="percent"-->
+        <!--            app:layout_constraintWidth_percent=".64"-->
+        <!--            />-->
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/main_title_precipitation"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.88"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".085"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".33"
+            />
+
+        <TextView
+            android:id="@+id/main_title_precipitation_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="0.0008 mm"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:shadowRadius="3"
+            android:shadowDy="2"
+            android:shadowColor="#011851"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.87"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".09"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".64"
+            />
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:background="@drawable/main_title_voltage"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.0"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintVertical_bias="0.88"-->
+
+        <!--            app:layout_constraintHeight_default="percent"-->
+        <!--            app:layout_constraintHeight_percent=".085"-->
+        <!--            app:layout_constraintWidth_default="percent"-->
+        <!--            app:layout_constraintWidth_percent=".33"-->
+        <!--            />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/main_title_voltage_tv"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:text="10.00 Wh"-->
+        <!--            android:gravity="center"-->
+        <!--            android:textSize="22sp"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:shadowRadius="3"-->
+        <!--            android:shadowDy="2"-->
+        <!--            android:shadowColor="#011851"-->
+
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="1"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintVertical_bias="0.87"-->
+
+        <!--            app:layout_constraintHeight_default="percent"-->
+        <!--            app:layout_constraintHeight_percent=".09"-->
+        <!--            app:layout_constraintWidth_default="percent"-->
+        <!--            app:layout_constraintWidth_percent=".64"-->
+        <!--            />-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+    <com.example.kiosk_electric_charger_pole_kc_rehearsal.adapter.SwipeDisabledViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.41"
+        tools:ignore="SpeakableTextPresentCheck"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

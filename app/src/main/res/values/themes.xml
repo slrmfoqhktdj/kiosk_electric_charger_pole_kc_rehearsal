@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Kiosk_electric_charger" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!--상태 바 없애기-->
+        <item name="android:windowFullscreen">true</item>
+        <!--액션 바(타이틀바) 없애기-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Kiosk_electric_charger" parent="Base.Theme.Kiosk_electric_charger" >
+
+    </style>
+
+    <!--메인 광고 카드뷰 아래만 둥근 스타일 -->
+
+
+    <style name="Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+
+</resources>

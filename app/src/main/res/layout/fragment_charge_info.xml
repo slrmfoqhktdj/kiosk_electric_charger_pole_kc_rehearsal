@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ChargeInfoFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/charge_info_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparency"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.1"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent=".2"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent=".3"
+                android:src="@drawable/kc_charging_msg"
+                />
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent=".4"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent=".3"
+                android:src="@drawable/kc_battary_img"
+                />
+
+            <TextView
+                android:id="@+id/charge_persent_tv"
+
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                android:gravity="center"
+                android:textStyle="bold"
+
+                android:textSize="40sp"
+                android:text="Hi"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.54"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent=".15"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent=".2"
+
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.45"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent=".2"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent=".2"
+                android:src="@drawable/kc_amount_msg"
+                />
+
+
+
+            <TextView
+                android:id="@+id/charge_amount_tv"
+
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/input_pay_fragment_text_box"
+
+                android:gravity="center"
+                android:textStyle="bold"
+
+                android:textSize="40sp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.82"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.6"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent=".1"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent=".25"
+
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+            <ImageButton
+                android:id="@+id/charge_pause_btn"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/kc_pause_btn"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.9"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent=".2"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent=".35"
+
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
