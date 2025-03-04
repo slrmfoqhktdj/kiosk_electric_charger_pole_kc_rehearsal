@@ -2246,6 +2246,14 @@ public class CenterActivity extends AppCompatActivity {
 
                 viewModel.setRight_charge_time(String.format("%02d:%02d:%02d", right_sec/3600,right_sec/60, right_sec%60));
 
+                // 임시 변화 시킴
+                try{
+                    viewModel.setRight_charge_amount(viewModel.getright_charge_amount().getValue()+0.0019f);
+                }catch (Exception e){
+                    e.printStackTrace();
+                    Logger.i("charge amount err :"+ e.getMessage());
+                }
+
             }
         };
 

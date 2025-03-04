@@ -3,8 +3,8 @@ package com.example.kiosk_electric_charger_pole_kc_rehearsal.model;
 import android.os.Environment;
 
 public class DeviceModel {
-    private static final String Deviceid = "pole_device_02";
-//    private static final String Deviceid = "pole_kc_rehearsal";
+//    private static final String Deviceid = "pole_device_02";
+    private static final String Deviceid = "pole_kc_rehearsal";
 
     private static final String Devicevendor = "IF";
 //    private static final String Devicelatitude = "35.187726962762";
@@ -12,12 +12,12 @@ public class DeviceModel {
 //    private static final String DeviceAddr = "광주광역시북구오치동";
 
 
-    private static final String Devicemodel = "pole";
-//    private static final String Devicemodel = "rehearsal";
+//    private static final String Devicemodel = "pole";
+    private static final String Devicemodel = "rehearsal";
     private static final String PAYvendor = "NVCAT";
 
-    private static final String WHEATHERvender = "TurbineCrew";
-//    private static final String WHEATHERvender = "Meterorological";
+//    private static final String WHEATHERvender = "TurbineCrew";
+    private static final String WHEATHERvender = "Meterorological";
 
     private static final String DeviceLogFilePath = Environment.getExternalStorageDirectory().getPath()+"/log/kec";
 
